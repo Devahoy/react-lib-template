@@ -1,0 +1,19 @@
+{
+  "name": "react-lib-template",
+  "version": "1.0.0",
+  "description": "React Library Template",
+  "author": "Chai Phonbopit <phonbopit@gmail.com>",
+  "scripts": {
+    "lint": "eslint src --color",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel-eslint": "8.1.2",
+    "babel-preset-env": "1.6.1",
+    "babel-preset-react": "6.24.1",
+    "eslint-config-standard-react": "5.0.0",
+    "jest": "22.0.4",
+    "standard": "10.0.3"
+  },
+  "license": "MIT"
+}
