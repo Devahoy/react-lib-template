@@ -5,12 +5,16 @@ React Library Template
 
 ## Usage
 
-```
-git clone git@github.com:Devahoy/react-lib-template.git my-awesome-lib
+* With Git
+
+```bash
+git clone https://github.com/Devahoy/react-lib-template my-awesome-lib
 cd my-awesome-lib
+./scripts/setup.sh
+```
 
-rm -rf .git
+* With CURL
 
-git init
-git remote add origin https://github.com/user/repo.git
+```bash
+curl https://raw.githubusercontent.com/Devahoy/react-lib-template/master/scripts/setup.sh | bash
 ```
